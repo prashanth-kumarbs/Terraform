@@ -1,21 +1,17 @@
-# Ì∫Ä Terraform AWS Infrastructure Project
+#  Terraform AWS Infrastructure Project
 
-This project automates the creation of **AWS infrastructure** using **Terraform** ‚Äî including **VPC, EC2, IAM, and S3**.
-
----
-
-## Ì≥Ç Folder Structure
-
-
----
+This project automates the creation of **AWS infrastructure** using **Terraform** ‚Äî including **VPC, EC2, IAM, and S3**
 
 ## ‚öôÔ∏è How to Use
 
 1. **Initialize Terraform**
    ```bash
    terraform init
-terraform plan
-terraform apply -auto-approve
-terraform output
+2. **Preview Resources**
+   terraform plan
+3. **Apply configuration**
+   terraform apply -auto-approve
+4. **View outputs**
+   terraform output
 
 
